@@ -12,7 +12,7 @@ export default class App extends React.Component {
     render() {
         return (
             <div>
-                <h1>Приветик</h1>
+                <h1>App test Приветик</h1>
                 <Header />
                 { this.props.children }
                 { process.env.NODE_ENV !== 'production' ? <DevTools /> : null }
